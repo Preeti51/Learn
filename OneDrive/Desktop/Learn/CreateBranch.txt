@@ -1,0 +1,34 @@
+cd Learn
+touch githubCmd.txt
+git add githubCmd.txt
+git status
+git commit -m "github contain"
+git remote add origin https://github.com/Preeti51/Learn.git
+git push -u origin master
+
+git branch
+git branch Praful
+git branch Preeti
+git branch Shersingh
+
+git branch
+git checkout Praful
+touch githubPraful.txt
+git add githubPraful.txt
+git commit -m "github Praful contain"
+git push -u origin Praful
+
+git branch
+git checkout Shersingh
+touch githubShersingh.txt
+git add githubShersingh.txt
+git commit -m "github Shersingh contain"
+git push -u origin Shersingh
+
+git branch
+git checkout Preeti
+touch githubPreeti.txt
+git add githubPreeti.txt
+git commit -m "github Preeti contain"
+git push -u origin Preeti
+
